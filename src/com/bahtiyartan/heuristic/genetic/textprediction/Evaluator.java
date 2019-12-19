@@ -6,6 +6,9 @@ public class Evaluator extends AbstractEvaluator {
 		super(pTargetString);
 	}
 
+	/**
+	 * Fitness method, that evaluates individuals.
+	 */
 	public void evaluate(Individual pIndividual) {
 
 		pIndividual.setScore(0);
